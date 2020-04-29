@@ -1,1 +1,1 @@
-# smego-info-section-Proxy
+# smego-info-section
