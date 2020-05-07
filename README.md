@@ -1,1 +1,0 @@
-# smego-info-section
