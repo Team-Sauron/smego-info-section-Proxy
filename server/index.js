@@ -25,6 +25,6 @@ app.listen(port, (err) => {
     throw err;
   } else {
     // eslint-disable-next-line no-console
-    console.log(`listening at http://localhost:${port}`);
+    console.log(`listening on port ${port}`);
   }
 });
