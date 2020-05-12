@@ -16,7 +16,7 @@ app.use(express.json());
 // endpoints
 
 // listen
-const port = 3000;
+const port = 80;
 
 app.listen(port, (err) => {
   if (err) {
