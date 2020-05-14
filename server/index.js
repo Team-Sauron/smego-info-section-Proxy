@@ -16,7 +16,7 @@ app.use(express.json());
 // endpoints
 
 // listen
-const port = 3000;
+const port = 80;
 
 app.listen(port, (err) => {
   if (err) {
@@ -25,6 +25,6 @@ app.listen(port, (err) => {
     throw err;
   } else {
     // eslint-disable-next-line no-console
-    console.log(`listening at http://localhost:${port}`);
+    console.log(`listening on port ${port}`);
   }
 });
